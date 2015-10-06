@@ -9,6 +9,7 @@ function Start () {
 function Update () {
 	 var myObject : GameObject;
 	 var ray = Camera.main.ScreenPointToRay (Vector2(512,384));
+	 // Screen Center 			^^^^^^^^^^^^^^^^^^
 	 var hit : RaycastHit;
 	 if (Physics.Raycast (ray, hit, 5	)) {
 	 	//Debug.Log(hit.collider.gameObject.name);
