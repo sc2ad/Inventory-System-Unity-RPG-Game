@@ -4,7 +4,7 @@ public var name = "";
 public var val : int;
 public var damage : int;
 public var durability : int;
-enum type{equippable_hand=0, equippable_body=1, equippable_accessory=2, junk=3, quest=4};
+enum type{equippable_hand=0, equippable_body=1, equippable_accessory=2, junk=3, quest=4, interactable=5};
 public var typerz : type;
 
 
